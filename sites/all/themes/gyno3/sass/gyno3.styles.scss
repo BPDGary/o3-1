@@ -1,0 +1,109 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit-no-css";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+
+/* view grid scss from http://komelin.com/en/5tips/own-responsive-grid-drupal-7-views-using-scss-and-css3-media-queries */
+
+@media all and (max-width: 479px) {
+
+  .view-grid.view-display-id-page {
+
+    .view-content {
+
+      .views-row {
+
+        width:100%;
+
+        float:left;
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+@media all and (min-width: 480px) and (max-width: 959px) {
+
+  .view-grid.view-display-id-page {
+
+    .view-content {
+
+      .views-row {
+
+        width:49%;
+
+        float:left;
+
+        &:nth-child(2n - 1) {
+
+          margin-right:2%;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+@media all and (min-width: 960px) {
+
+  .view-grid.view-display-id-page {
+
+    .view-content {
+
+      .views-row {
+
+        float:left;
+
+        width:32%;
+
+        &:nth-child(3n - 1) {
+
+          margin-right:2%;
+
+          margin-left:2%;
+
+        }
+
+        &:nth-child(3n + 1) {
+
+          clear:left;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
