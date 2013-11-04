@@ -1,9 +1,9 @@
 @media all and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.hacks\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.hacks\.scss}line{font-family:\000033}}
   #toolbar, #admin-menu {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.hacks\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.hacks\.scss}line{font-family:\000038}}
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
