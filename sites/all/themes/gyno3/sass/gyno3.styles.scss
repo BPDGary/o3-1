@@ -22,6 +22,10 @@
 @import "components/**/*";
 
 
+//GAP START
+@import "compass/utilities/general/clearfix";
+
+
 /* view grid scss from http://komelin.com/en/5tips/own-responsive-grid-drupal-7-views-using-scss-and-css3-media-queries */
 
 @media all and (max-width: 479px) {
@@ -107,5 +111,80 @@
   }
 
 }
+$grids: 12;
+$gutters: 1/3;
 
-.pane-4 div{background-color: purple !important;}
+$phone: 300px;
+$tablet: 700px;
+
+body{
+    background-color:maroon;
+}
+.panels-flexible-landing1{
+    max-width:1200px;
+    margin:0 auto;
+
+    //@include background-grid;
+}
+
+.l-branding h1, .l-branding h2 {
+    text-indent: -9999em;
+}
+
+.panels-flexible-row-landing1-1.top{
+    height:auto;
+    background-image: url('../images/Woman-v03.png');
+    @include breakpoint($phone){
+        //background-size:cover;
+        background-position:00px 0px;
+        background-attachment:fixed;
+    }
+    @include breakpoint($tablet){
+        background-size:cover;
+        background-position: 0% 0%;
+        background-attachment:scroll;
+    }
+    
+} 
+#headerdiv{
+    width:100% !important;
+    height:160px;
+    background-color:rgba(255,0,0,.5);
+    @include breakpoint($phone){
+        
+    }
+}
+.welcome-fh{
+    @include breakpoint($phone){
+        @include grid-span (12, 1);
+        padding:25px;
+        height:400px; 
+        //background-color:pink;
+        //border:1px solid red;
+    }
+    @include breakpoint($tablet){
+        @include grid-span (6, 1);
+        padding:25px;
+        height:400px;
+        //background-color:orange;
+        //border:1px solid red;
+    }
+
+}
+.pane-webform-client-block-14{
+    input{max-width:300px;}
+    @include breakpoint($phone){
+        @include grid-span (12, 1);
+        height:400px;
+        //background-color:aqua;
+        //border:1px solid green;
+    }
+    @include breakpoint($tablet){
+        @include grid-span (6, 7);
+        height:400px;
+        //background-color:aqua;
+        //border:1px solid blue;
+    }
+
+}
+

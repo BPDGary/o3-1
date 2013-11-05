@@ -1,34 +1,58 @@
 /* No files to import found in abstractions/**\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/base\/_media\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%; }
 
 /* view grid scss from http://komelin.com/en/5tips/own-responsive-grid-drupal-7-views-using-scss-and-css3-media-queries */
 @media all and (max-width: 479px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000337}}
   .view-grid.view-display-id-page .view-content .views-row {
     width: 100%;
     float: left; } }
 @media all and (min-width: 480px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000359}}
   .view-grid.view-display-id-page .view-content .views-row {
     width: 49%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000365}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(2n - 1) {
       margin-right: 2%; } }
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000387}}
   .view-grid.view-display-id-page .view-content .views-row {
     float: left;
     width: 32%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000393}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(3n - 1) {
       margin-right: 2%;
       margin-left: 2%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003101}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(3n + 1) {
       clear: left; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Gary\/Documents\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003111}}
-.pane-4 div {
-  background-color: purple !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003120}}
+body {
+  background-color: maroon; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003123}}
+.panels-flexible-landing1 {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003130}}
+.l-branding h1, .l-branding h2 {
+  text-indent: -9999em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003134}}
+.panels-flexible-row-landing1-1.top {
+  height: auto;
+  background-image: url("../images/Woman-v03.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003149}}
+#headerdiv {
+  width: 100% !important;
+  height: 160px;
+  background-color: rgba(255, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003175}}
+.pane-webform-client-block-14 input {
+  max-width: 300px; }
