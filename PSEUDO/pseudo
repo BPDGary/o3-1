@@ -1,0 +1,16 @@
+bg fix
+
+symptoms:
+woman has giant head in about div of pelvic health page
+
+general fix:
+apply background-size:cover to about div
+works ie9+ chrome ff safari (not mobile)
+
+ipad/iphone:
+background-size:cover not respected by mobile safari
+
+ie8:
+transparency not working correctly (ie8 filter?)
+background-size:cover not working as it is css3
+
