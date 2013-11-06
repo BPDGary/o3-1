@@ -3,56 +3,65 @@
 img, media {
   max-width: 100%; }
 
-/* view grid scss from http://komelin.com/en/5tips/own-responsive-grid-drupal-7-views-using-scss-and-css3-media-queries */
 @media all and (max-width: 479px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000332}}
   .view-grid.view-display-id-page .view-content .views-row {
     width: 100%;
     float: left; } }
 @media all and (min-width: 480px) and (max-width: 959px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000342}}
   .view-grid.view-display-id-page .view-content .views-row {
     width: 49%;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000345}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(2n - 1) {
       margin-right: 2%; } }
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000355}}
   .view-grid.view-display-id-page .view-content .views-row {
     float: left;
     width: 32%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000358}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(3n - 1) {
       margin-right: 2%;
       margin-left: 2%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000362}}
     .view-grid.view-display-id-page .view-content .views-row:nth-child(3n + 1) {
       clear: left; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003120}}
-body {
-  background-color: maroon; }
+/* Resets and fixes for drupal weirdness */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000373}}
+.panels-flexible-row {
+  padding: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000376}}
+.l-branding h1, .l-branding h2 {
+  text-indent: -9999em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000380}}
 .panels-flexible-landing1 {
   max-width: 1200px;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003130}}
-.l-branding h1, .l-branding h2 {
-  text-indent: -9999em; }
+/* Grid and breakpoints */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\0000399}}
+body {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(6.38298%, rgba(210, 105, 30, 0.5)), color-stop(6.38298%, rgba(210, 105, 30, 0.25)), color-stop(8.51064%, rgba(210, 105, 30, 0.25)), color-stop(8.51064%, rgba(210, 105, 30, 0.5)), color-stop(14.89362%, rgba(210, 105, 30, 0.5)), color-stop(14.89362%, rgba(210, 105, 30, 0.25)), color-stop(17.02128%, rgba(210, 105, 30, 0.25)), color-stop(17.02128%, rgba(210, 105, 30, 0.5)), color-stop(23.40426%, rgba(210, 105, 30, 0.5)), color-stop(23.40426%, rgba(210, 105, 30, 0.25)), color-stop(25.53191%, rgba(210, 105, 30, 0.25)), color-stop(25.53191%, rgba(210, 105, 30, 0.5)), color-stop(31.91489%, rgba(210, 105, 30, 0.5)), color-stop(31.91489%, rgba(210, 105, 30, 0.25)), color-stop(34.04255%, rgba(210, 105, 30, 0.25)), color-stop(34.04255%, rgba(210, 105, 30, 0.5)), color-stop(40.42553%, rgba(210, 105, 30, 0.5)), color-stop(40.42553%, rgba(210, 105, 30, 0.25)), color-stop(42.55319%, rgba(210, 105, 30, 0.25)), color-stop(42.55319%, rgba(210, 105, 30, 0.5)), color-stop(48.93617%, rgba(210, 105, 30, 0.5)), color-stop(48.93617%, rgba(210, 105, 30, 0.25)), color-stop(51.06383%, rgba(210, 105, 30, 0.25)), color-stop(51.06383%, rgba(210, 105, 30, 0.5)), color-stop(57.44681%, rgba(210, 105, 30, 0.5)), color-stop(57.44681%, rgba(210, 105, 30, 0.25)), color-stop(59.57447%, rgba(210, 105, 30, 0.25)), color-stop(59.57447%, rgba(210, 105, 30, 0.5)), color-stop(65.95745%, rgba(210, 105, 30, 0.5)), color-stop(65.95745%, rgba(210, 105, 30, 0.25)), color-stop(68.08511%, rgba(210, 105, 30, 0.25)), color-stop(68.08511%, rgba(210, 105, 30, 0.5)), color-stop(74.46809%, rgba(210, 105, 30, 0.5)), color-stop(74.46809%, rgba(210, 105, 30, 0.25)), color-stop(76.59574%, rgba(210, 105, 30, 0.25)), color-stop(76.59574%, rgba(210, 105, 30, 0.5)), color-stop(82.97872%, rgba(210, 105, 30, 0.5)), color-stop(82.97872%, rgba(210, 105, 30, 0.25)), color-stop(85.10638%, rgba(210, 105, 30, 0.25)), color-stop(85.10638%, rgba(210, 105, 30, 0.5)), color-stop(91.48936%, rgba(210, 105, 30, 0.5)), color-stop(91.48936%, rgba(210, 105, 30, 0.25)), color-stop(93.61702%, rgba(210, 105, 30, 0.25)), color-stop(93.61702%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
+  background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 6.38298%, rgba(210, 105, 30, 0.25) 6.38298%, rgba(210, 105, 30, 0.25) 8.51064%, rgba(210, 105, 30, 0.5) 8.51064%, rgba(210, 105, 30, 0.5) 14.89362%, rgba(210, 105, 30, 0.25) 14.89362%, rgba(210, 105, 30, 0.25) 17.02128%, rgba(210, 105, 30, 0.5) 17.02128%, rgba(210, 105, 30, 0.5) 23.40426%, rgba(210, 105, 30, 0.25) 23.40426%, rgba(210, 105, 30, 0.25) 25.53191%, rgba(210, 105, 30, 0.5) 25.53191%, rgba(210, 105, 30, 0.5) 31.91489%, rgba(210, 105, 30, 0.25) 31.91489%, rgba(210, 105, 30, 0.25) 34.04255%, rgba(210, 105, 30, 0.5) 34.04255%, rgba(210, 105, 30, 0.5) 40.42553%, rgba(210, 105, 30, 0.25) 40.42553%, rgba(210, 105, 30, 0.25) 42.55319%, rgba(210, 105, 30, 0.5) 42.55319%, rgba(210, 105, 30, 0.5) 48.93617%, rgba(210, 105, 30, 0.25) 48.93617%, rgba(210, 105, 30, 0.25) 51.06383%, rgba(210, 105, 30, 0.5) 51.06383%, rgba(210, 105, 30, 0.5) 57.44681%, rgba(210, 105, 30, 0.25) 57.44681%, rgba(210, 105, 30, 0.25) 59.57447%, rgba(210, 105, 30, 0.5) 59.57447%, rgba(210, 105, 30, 0.5) 65.95745%, rgba(210, 105, 30, 0.25) 65.95745%, rgba(210, 105, 30, 0.25) 68.08511%, rgba(210, 105, 30, 0.5) 68.08511%, rgba(210, 105, 30, 0.5) 74.46809%, rgba(210, 105, 30, 0.25) 74.46809%, rgba(210, 105, 30, 0.25) 76.59574%, rgba(210, 105, 30, 0.5) 76.59574%, rgba(210, 105, 30, 0.5) 82.97872%, rgba(210, 105, 30, 0.25) 82.97872%, rgba(210, 105, 30, 0.25) 85.10638%, rgba(210, 105, 30, 0.5) 85.10638%, rgba(210, 105, 30, 0.5) 91.48936%, rgba(210, 105, 30, 0.25) 91.48936%, rgba(210, 105, 30, 0.25) 93.61702%, rgba(210, 105, 30, 0.5) 93.61702%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 6.38298%, rgba(210, 105, 30, 0.25) 6.38298%, rgba(210, 105, 30, 0.25) 8.51064%, rgba(210, 105, 30, 0.5) 8.51064%, rgba(210, 105, 30, 0.5) 14.89362%, rgba(210, 105, 30, 0.25) 14.89362%, rgba(210, 105, 30, 0.25) 17.02128%, rgba(210, 105, 30, 0.5) 17.02128%, rgba(210, 105, 30, 0.5) 23.40426%, rgba(210, 105, 30, 0.25) 23.40426%, rgba(210, 105, 30, 0.25) 25.53191%, rgba(210, 105, 30, 0.5) 25.53191%, rgba(210, 105, 30, 0.5) 31.91489%, rgba(210, 105, 30, 0.25) 31.91489%, rgba(210, 105, 30, 0.25) 34.04255%, rgba(210, 105, 30, 0.5) 34.04255%, rgba(210, 105, 30, 0.5) 40.42553%, rgba(210, 105, 30, 0.25) 40.42553%, rgba(210, 105, 30, 0.25) 42.55319%, rgba(210, 105, 30, 0.5) 42.55319%, rgba(210, 105, 30, 0.5) 48.93617%, rgba(210, 105, 30, 0.25) 48.93617%, rgba(210, 105, 30, 0.25) 51.06383%, rgba(210, 105, 30, 0.5) 51.06383%, rgba(210, 105, 30, 0.5) 57.44681%, rgba(210, 105, 30, 0.25) 57.44681%, rgba(210, 105, 30, 0.25) 59.57447%, rgba(210, 105, 30, 0.5) 59.57447%, rgba(210, 105, 30, 0.5) 65.95745%, rgba(210, 105, 30, 0.25) 65.95745%, rgba(210, 105, 30, 0.25) 68.08511%, rgba(210, 105, 30, 0.5) 68.08511%, rgba(210, 105, 30, 0.5) 74.46809%, rgba(210, 105, 30, 0.25) 74.46809%, rgba(210, 105, 30, 0.25) 76.59574%, rgba(210, 105, 30, 0.5) 76.59574%, rgba(210, 105, 30, 0.5) 82.97872%, rgba(210, 105, 30, 0.25) 82.97872%, rgba(210, 105, 30, 0.25) 85.10638%, rgba(210, 105, 30, 0.5) 85.10638%, rgba(210, 105, 30, 0.5) 91.48936%, rgba(210, 105, 30, 0.25) 91.48936%, rgba(210, 105, 30, 0.25) 93.61702%, rgba(210, 105, 30, 0.5) 93.61702%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 6.38298%, rgba(210, 105, 30, 0.25) 6.38298%, rgba(210, 105, 30, 0.25) 8.51064%, rgba(210, 105, 30, 0.5) 8.51064%, rgba(210, 105, 30, 0.5) 14.89362%, rgba(210, 105, 30, 0.25) 14.89362%, rgba(210, 105, 30, 0.25) 17.02128%, rgba(210, 105, 30, 0.5) 17.02128%, rgba(210, 105, 30, 0.5) 23.40426%, rgba(210, 105, 30, 0.25) 23.40426%, rgba(210, 105, 30, 0.25) 25.53191%, rgba(210, 105, 30, 0.5) 25.53191%, rgba(210, 105, 30, 0.5) 31.91489%, rgba(210, 105, 30, 0.25) 31.91489%, rgba(210, 105, 30, 0.25) 34.04255%, rgba(210, 105, 30, 0.5) 34.04255%, rgba(210, 105, 30, 0.5) 40.42553%, rgba(210, 105, 30, 0.25) 40.42553%, rgba(210, 105, 30, 0.25) 42.55319%, rgba(210, 105, 30, 0.5) 42.55319%, rgba(210, 105, 30, 0.5) 48.93617%, rgba(210, 105, 30, 0.25) 48.93617%, rgba(210, 105, 30, 0.25) 51.06383%, rgba(210, 105, 30, 0.5) 51.06383%, rgba(210, 105, 30, 0.5) 57.44681%, rgba(210, 105, 30, 0.25) 57.44681%, rgba(210, 105, 30, 0.25) 59.57447%, rgba(210, 105, 30, 0.5) 59.57447%, rgba(210, 105, 30, 0.5) 65.95745%, rgba(210, 105, 30, 0.25) 65.95745%, rgba(210, 105, 30, 0.25) 68.08511%, rgba(210, 105, 30, 0.5) 68.08511%, rgba(210, 105, 30, 0.5) 74.46809%, rgba(210, 105, 30, 0.25) 74.46809%, rgba(210, 105, 30, 0.25) 76.59574%, rgba(210, 105, 30, 0.5) 76.59574%, rgba(210, 105, 30, 0.5) 82.97872%, rgba(210, 105, 30, 0.25) 82.97872%, rgba(210, 105, 30, 0.25) 85.10638%, rgba(210, 105, 30, 0.5) 85.10638%, rgba(210, 105, 30, 0.5) 91.48936%, rgba(210, 105, 30, 0.25) 91.48936%, rgba(210, 105, 30, 0.25) 93.61702%, rgba(210, 105, 30, 0.5) 93.61702%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 6.38298%, rgba(210, 105, 30, 0.25) 6.38298%, rgba(210, 105, 30, 0.25) 8.51064%, rgba(210, 105, 30, 0.5) 8.51064%, rgba(210, 105, 30, 0.5) 14.89362%, rgba(210, 105, 30, 0.25) 14.89362%, rgba(210, 105, 30, 0.25) 17.02128%, rgba(210, 105, 30, 0.5) 17.02128%, rgba(210, 105, 30, 0.5) 23.40426%, rgba(210, 105, 30, 0.25) 23.40426%, rgba(210, 105, 30, 0.25) 25.53191%, rgba(210, 105, 30, 0.5) 25.53191%, rgba(210, 105, 30, 0.5) 31.91489%, rgba(210, 105, 30, 0.25) 31.91489%, rgba(210, 105, 30, 0.25) 34.04255%, rgba(210, 105, 30, 0.5) 34.04255%, rgba(210, 105, 30, 0.5) 40.42553%, rgba(210, 105, 30, 0.25) 40.42553%, rgba(210, 105, 30, 0.25) 42.55319%, rgba(210, 105, 30, 0.5) 42.55319%, rgba(210, 105, 30, 0.5) 48.93617%, rgba(210, 105, 30, 0.25) 48.93617%, rgba(210, 105, 30, 0.25) 51.06383%, rgba(210, 105, 30, 0.5) 51.06383%, rgba(210, 105, 30, 0.5) 57.44681%, rgba(210, 105, 30, 0.25) 57.44681%, rgba(210, 105, 30, 0.25) 59.57447%, rgba(210, 105, 30, 0.5) 59.57447%, rgba(210, 105, 30, 0.5) 65.95745%, rgba(210, 105, 30, 0.25) 65.95745%, rgba(210, 105, 30, 0.25) 68.08511%, rgba(210, 105, 30, 0.5) 68.08511%, rgba(210, 105, 30, 0.5) 74.46809%, rgba(210, 105, 30, 0.25) 74.46809%, rgba(210, 105, 30, 0.25) 76.59574%, rgba(210, 105, 30, 0.5) 76.59574%, rgba(210, 105, 30, 0.5) 82.97872%, rgba(210, 105, 30, 0.25) 82.97872%, rgba(210, 105, 30, 0.25) 85.10638%, rgba(210, 105, 30, 0.5) 85.10638%, rgba(210, 105, 30, 0.5) 91.48936%, rgba(210, 105, 30, 0.25) 91.48936%, rgba(210, 105, 30, 0.25) 93.61702%, rgba(210, 105, 30, 0.5) 93.61702%, rgba(210, 105, 30, 0.5) 100%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003102}}
 .panels-flexible-row-landing1-1.top {
   height: auto;
   background-image: url("../images/Woman-v03.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003115}}
 #headerdiv {
   width: 100% !important;
   height: 160px;
   background-color: rgba(255, 0, 0, 0.5); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gary\/NetBeansProjects\/o3-1\/sites\/all\/themes\/gyno3\/sass\/gyno3\.styles\.scss}line{font-family:\00003133}}
 .pane-webform-client-block-14 input {
   max-width: 300px; }
